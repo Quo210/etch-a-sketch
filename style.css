@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(224, 9, 9);
+    margin: 0px;
+}
+
+#header {
+    height: 10vh;
+    width: auto;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header > span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    text-shadow: gray;
+}
+
+button {
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+button.controls {
+    position: fixed;
+    height: 15vh;
+    min-height: 30px;
+    width: 15vh;
+    border-radius: 50px;
+    border: gray ridge 15px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(197, 197, 197);
+}
+
+button#reset {
+    bottom: 1vh;
+    right: 1vw;
+}
+
+button#create {
+    bottom: 1vh;
+    left: 1vw;
+}
+
+button#color {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+div#main {
+    background-color: whitesmoke;
+    width: auto;
+    margin: 0px 5vw 0px 5vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    outline: inset 8px brown;
+}
+
+.square {
+    background-color:rgb(230, 230, 230);
+    outline: 1px solid white;
+}
+
+.hover {
+    background-color: rgb(15, 1, 1);
+}
+
+#footer {
+    color: black;
+    position: fixed;
+    bottom: 10px;
+    right: 20vw;
+    font-size: 20px;
+}
